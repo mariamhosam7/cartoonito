@@ -1,0 +1,20 @@
+.background{
+    background-image: url(../img/3cdc7904-8a0c-4628-b9e6-693685d46118.jpg);
+    background-position: center 0;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.progress-bar{
+    animation-name: mariam;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+}
+@keyframes mariam{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100;
+    }
+}
